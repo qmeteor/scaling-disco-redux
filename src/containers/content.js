@@ -17,13 +17,13 @@ class Content extends Component {
         } else if (this.props.content.type === TOGGLE_RED) {
             return (
                 <div>
-                    <h3>The Red Spot</h3>
+                    <h3>Red is where it's at.</h3>
                 </div>
             );
         } else {
             return (
                 <div>
-                    <h3>Though shall be Green</h3>
+                    <h3>Let there be green!</h3>
                 </div>
             );
         }

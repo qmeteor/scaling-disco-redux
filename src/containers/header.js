@@ -11,10 +11,12 @@ import { connect } from 'react-redux';
 class Header extends Component {
     handleRedClick() {
         this.props.dispatch(changeToRed());
+        //this.props.changeToRed();
     }
 
     handleGreenClick() {
         this.props.dispatch(changeToGreen());
+        //this.props.changeToGreen();
     }
 
     render() {
@@ -31,4 +33,6 @@ class Header extends Component {
     }
 }
 
+
 export default connect()(Header);
+//export default connect(null, { changeToGreen, changeToRed })(Header);
